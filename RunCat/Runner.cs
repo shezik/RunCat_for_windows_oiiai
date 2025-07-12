@@ -5,6 +5,7 @@
         Cat,
         Parrot,
         Horse,
+        Ethel,
     }
 
     static class RunnerExtensions
@@ -19,6 +20,8 @@
                     return "Parrot";
                 case Runner.Horse:
                     return "Horse";
+                case Runner.Ethel:
+                    return "Ethel";
                 default:
                     return "";
             }
@@ -34,6 +37,8 @@
                     return 10;
                 case Runner.Horse:
                     return 14;
+                case Runner.Ethel:
+                    return 33;
                 default:
                     return 0;
             }

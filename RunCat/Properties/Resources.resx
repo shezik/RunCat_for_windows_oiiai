@@ -292,4 +292,103 @@
   <data name="light_horse_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\horse\light_horse_13.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ethel_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_0.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_3.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_4.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_5.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_6.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_7.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_8.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_9.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_10.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_11.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_12.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_13.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_14.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_15.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_16.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_17.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_18.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_19.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_20.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_21.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_22.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_23.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_24.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_25.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_26.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_27.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_28.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_29.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_30.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_31.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
+<data name="ethel_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <value>..\resources\ethel\ethel_32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+</data>
 </root>
