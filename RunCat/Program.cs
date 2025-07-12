@@ -65,7 +65,6 @@ namespace RunCat
         private Theme manualTheme = Theme.System;
         private FPSMaxLimit fpsMaxLimit = FPSMaxLimit.FPS40;
         private int current = 0;
-        private float interval;
         private Icon[] icons;
         private Timer animateTimer = new Timer();
         private Timer cpuTimer = new Timer();
@@ -193,14 +192,14 @@ namespace RunCat
         private void SetIcons()
         {
             Theme systemTheme = GetSystemTheme();
-            string prefix = (manualTheme == Theme.System ? systemTheme : manualTheme).GetString();
+            string prefix = (runner == Runner.Ethel ? "" : ((manualTheme == Theme.System ? systemTheme : manualTheme).GetString() + "_"));
             string runnerName = runner.GetString();
             ResourceManager rm = Resources.ResourceManager;
             int capacity = runner.GetFrameNumber();
             List<Icon> list = new List<Icon>(capacity);
             for (int i = 0; i < capacity; i++)
             {
-                string iconName = $"{prefix}_{runnerName}_{i}".ToLower();
+                string iconName = $"{prefix}{runnerName}_{i}".ToLower();
                 list.Add((Icon)rm.GetObject(iconName));
             }
             icons = list.ToArray();
@@ -272,7 +271,13 @@ namespace RunCat
 
         private void AnimationTick(object sender, EventArgs e)
         {
-            if (icons.Length <= current) current = 0;
+            if (runner == Runner.Ethel && animateTimer.Interval >= UsageToInterval(15f))
+                current = 0;
+            else
+            {
+                if (icons.Length <= current) current = 0;
+                if (runner == Runner.Ethel && current == 0) current = 1;
+            }
             notifyIcon.Icon = icons[current];
             current = (current + 1) % icons.Length;
         }
@@ -284,16 +289,20 @@ namespace RunCat
             animateTimer.Start();
         }
 
-        private void CPUTick()
+        private float UsageToInterval(float usage)
         {
             // Range of CPU percentage: 0-100 (%)
-            float cpuPercentage = Math.Min(100, cpuUsage.NextValue());
-            notifyIcon.Text = $"CPU: {cpuPercentage:f1}%";
             // Range of interval: 25-500 (ms) = 2-40 (fps)
-            interval = 500.0f / (float)Math.Max(1.0f, (cpuPercentage / 5.0f) * fpsMaxLimit.GetRate());
+            return 500.0f / (float)Math.Max(1.0f, (Math.Min(100f, usage) / 5.0f) * fpsMaxLimit.GetRate());
+        }
+
+        private void CPUTick()
+        {
+            float cpuPercentage = cpuUsage.NextValue();
+            notifyIcon.Text = $"{cpuPercentage:f1}%";
 
             animateTimer.Stop();
-            animateTimer.Interval = (int)interval;
+            animateTimer.Interval = (int) UsageToInterval(cpuPercentage);
             animateTimer.Start();
         }
 
