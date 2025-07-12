@@ -38,7 +38,7 @@
                 case Runner.Horse:
                     return 14;
                 case Runner.Ethel:
-                    return 33;
+                    return 17;
                 default:
                     return 0;
             }
